@@ -2,7 +2,7 @@
 
 ## What is a Black Hole?
 
-"A black hole is a place in space where gravity pulls so much that even light can not get out. The gravity is so strong because matter has been squeezed into a tiny space. This can happen when a star is dying." -- [NASA] (https://www.nasa.gov/audience/forstudents/k-4/stories/nasa-knows/what-is-a-black-hole-k4.html)
+"A black hole is a place in space where gravity pulls so much that even light can not get out. The gravity is so strong because matter has been squeezed into a tiny space. This can happen when a star is dying." -- [NASA](https://www.nasa.gov/audience/forstudents/k-4/stories/nasa-knows/what-is-a-black-hole-k4.html)
 
 ## How Big is a Black Hole?
 
@@ -16,4 +16,4 @@ It is believed that the smallest black holes were formed at the beginning of the
 
 Black holes are invisible to the naked eye -- light cannot escape because it is pulled into the middle of the black hole so humans cannot see black holes. However, we can use telescopes to find black holes by observing the behavior of stars and gas around a black hole. By imaging stars, scientists can determine if the stars' paths have been affected by the gravity of the black hole.
 
-"When a black hole and a star are close together, high-energy light is made. This kind of light can not be seen with human eyes. Scientists use satellites and telescopes in space to see the high-energy light." -- [NASA] (https://www.nasa.gov/audience/forstudents/k-4/stories/nasa-knows/what-is-a-black-hole-k4.html)s
+"When a black hole and a star are close together, high-energy light is made. This kind of light can not be seen with human eyes. Scientists use satellites and telescopes in space to see the high-energy light." -- [NASA](https://www.nasa.gov/audience/forstudents/k-4/stories/nasa-knows/what-is-a-black-hole-k4.html)s
