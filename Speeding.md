@@ -1,3 +1,9 @@
+---
+layout: default
+title: Speeding
+description: Introduction to Special Relativity
+---
+
 # Introduction to Speeding
 
 ## Special relativity describes the very fast.
@@ -9,24 +15,24 @@ First we need to understand wristwatch time. Imagine a wristwatch attached to a 
 
 ![Wristwatch Time](WristwatchTime.gif)
 
-NOTE: special relativity warns us that a different observer passing us in uniform relative motion typically records a different value of spacial separation (<img src="https://latex.codecogs.com/svg.latex?\Large&space;s" title="\Large Wristwatch Time" />) and time lapse (<img src="https://latex.codecogs.com/svg.latex?\Large&space;t" title="\Large Wristwatch Time" />) between ticks.
+NOTE: special relativity warns us that a different observer passing us in uniform relative motion typically records a different value of spacial separation (<img src="https://latex.codecogs.com/svg.latex?\Large&space;s" title="\Large Distance" />) and time lapse (<img src="https://latex.codecogs.com/svg.latex?\Large&space;t" title="\Large Time" />) between ticks.
 
-All inertial observers, regardless of their state of relative motion and values of <img src="https://latex.codecogs.com/svg.latex?\Large&space;s" title="\Large Wristwatch Time" /> and <img src="https://latex.codecogs.com/svg.latex?\Large&space;t" title="\Large Wristwatch Time" /> agree on the value of time <img src="https://latex.codecogs.com/svg.latex?\Large&space;\tau" title="\Large Wristwatch Time" /> between ticks as <img src="https://latex.codecogs.com/svg.latex?\Large&space;{\tau}^{2} = t^{2} - s^{2}" title="\Large The Metric" />
+All inertial observers, regardless of their state of relative motion and values of <img src="https://latex.codecogs.com/svg.latex?\Large&space;s" title="\Large Distance" /> and <img src="https://latex.codecogs.com/svg.latex?\Large&space;t" title="\Large Time" /> agree on the value of time <img src="https://latex.codecogs.com/svg.latex?\Large&space;\tau" title="\Large Wristwatch Time" /> between ticks as <img src="https://latex.codecogs.com/svg.latex?\Large&space;{\tau}^{2} = t^{2} - s^{2}" title="\Large The Metric" />
 
 The metric tells us the separation between events in spacetime.
 
-We call <img src="https://latex.codecogs.com/svg.latex?\Large&space;\tau" title="\Large Wristwatch Time" /> the wristwatch time and it can be used to describe the separation between any pair of events for which <img src="https://latex.codecogs.com/svg.latex?\Large&space;t" title="\Large Wristwatch Time" /> is greater than <img src="https://latex.codecogs.com/svg.latex?\Large&space;s" title="\Large Wristwatch Time" />.
+We call <img src="https://latex.codecogs.com/svg.latex?\Large&space;\tau" title="\Large Wristwatch Time" /> the wristwatch time and it can be used to describe the separation between any pair of events for which <img src="https://latex.codecogs.com/svg.latex?\Large&space;t" title="\Large Time" /> is greater than <img src="https://latex.codecogs.com/svg.latex?\Large&space;s" title="\Large Distance" />.
 
-For simplicity, the units of space and time are the same (i.e. light years and years). The speed of light (<img src="https://latex.codecogs.com/svg.latex?\Large&space;c" title="\Large Wristwatch Time" />) is the conversion factor between measures of space and time. Wristwatch time (<img src="https://latex.codecogs.com/svg.latex?\Large&space;\tau" title="\Large Wristwatch Time" />) is an invariant, because it is constant for all observers.
+For simplicity, the units of space and time are the same (i.e. light years and years). The speed of light (<img src="https://latex.codecogs.com/svg.latex?\Large&space;c" title="\Large Speed of Light" />) is the conversion factor between measures of space and time. Wristwatch time (<img src="https://latex.codecogs.com/svg.latex?\Large&space;\tau" title="\Large Wristwatch Time" />) is an invariant, because it is constant for all observers.
 
-Speed depends on the reference frame, in this case <img src="https://latex.codecogs.com/svg.latex?\Large&space;v =\frac{s}{t}" title="\Large Wristwatch Time" /> (units cancel out) so velocity is a fraction of the speed of light (unitless).
+Speed depends on the reference frame, in this case <img src="https://latex.codecogs.com/svg.latex?\Large&space;v =\frac{s}{t}" title="\Large Velocity" /> (units cancel out) so velocity is a fraction of the speed of light (unitless).
 
 ## Proper distance
 If two events occur simultaneously, we cannot use wristwatch time. Simultaneous events are therefore useless for measuring time but perfect for measuring length.
 
-To find a rod's length we can set off explosions at each end at <img src="https://latex.codecogs.com/svg.latex?\Large&space;t = 0" title="\Large Wristwatch Time" /> and <img src="https://latex.codecogs.com/svg.latex?\Large&space;s" title="\Large Wristwatch Time" /> would be our distance. BUT special relativity warns us that a different observer passing in uniform relative motion typically would not agree that both explosions occurred at <img src="https://latex.codecogs.com/svg.latex?\Large&space;t=0" title="\Large Wristwatch Time" />. However, all initial observers agree in the distance: <img src="https://latex.codecogs.com/svg.latex?\Large&space;R^2 = s^2 - t^2" title="\Large Wristwatch Time" />.
+To find a rod's length we can set off explosions at each end at <img src="https://latex.codecogs.com/svg.latex?\Large&space;t = 0" title="\Large Time" /> and <img src="https://latex.codecogs.com/svg.latex?\Large&space;s" title="\Large Distance" /> would be our distance. BUT special relativity warns us that a different observer passing in uniform relative motion typically would not agree that both explosions occurred at <img src="https://latex.codecogs.com/svg.latex?\Large&space;t=0" title="\Large Time" />. However, all initial observers agree in the distance: <img src="https://latex.codecogs.com/svg.latex?\Large&space;R^2 = s^2 - t^2" title="\Large Common Distance" />.
 
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;R" title="\Large Wristwatch Time" /> is called the proper distance and it describes the separation between  any pair of events for which <img src="https://latex.codecogs.com/svg.latex?\Large&space;a" title="\Large Wristwatch Time" /> is greater than <img src="https://latex.codecogs.com/svg.latex?\Large&space;t" title="\Large Wristwatch Time" />. Again, units of space and time are the same. The proper length is therefore the length of a rod as measured in a rest frame.
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;R" title="\Large Proper Distance" /> is called the proper distance and it describes the separation between  any pair of events for which <img src="https://latex.codecogs.com/svg.latex?\Large&space;s" title="\Large Distance" /> is greater than <img src="https://latex.codecogs.com/svg.latex?\Large&space;t" title="\Large Time" />. Again, units of space and time are the same. The proper length is therefore the length of a rod as measured in a rest frame. <img src="https://latex.codecogs.com/svg.latex?\Large&space;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" title="\Large Quadratic Formula" />
 
 ## The Principles of Extreme Aging
 Flat Spacetime is the arena of the free float frame in which special relativity correctly describes motion.
