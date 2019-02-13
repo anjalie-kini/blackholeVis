@@ -1,3 +1,10 @@
+---
+layout: default
+title: Background Information
+description: Basic introduction to this project
+exclude: true
+---
+
 # Black Hole Background
 
 ## Why Do We Care About Black Holes?

@@ -1,4 +1,10 @@
-## Some Terminology
+---
+layout: default
+title: Important Terminology
+description: Terms you should know
+---
+
+## Some Important Terminology
 
 **Kerr Black Hole:** a spinning black hole -- the most common form in nature because it rotates from the star is was created from
 
