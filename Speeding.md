@@ -7,9 +7,11 @@ General relativity (the Theory of Gravitation) describes matter and motion near 
 ## Wristwatch time
 First we need to understand wristwatch time. Imagine a wristwatch attached to a stone which is thrown. The stone follows Newton's First Law. There are two points at which the wristwatch ticks. We measure the distance (s) and time (t) between these two ticks in a particular free-float or inertial reference frame.
 
+![image](files/Users/askmac/Documents/CompSci/CSC600/WristwatchTime.gif)
+
 NOTE: special relativity warns us that a different observer passing us in uniform relative motion typically records a different value of spacial separation (s) and time lapse (t) between ticks.
 
-All inertial observers, regardless of their state of relative motion and values of s and t agree on the value of time T between ticks as T^2 = t^2 - s^2
+All inertial observers, regardless of their state of relative motion and values of s and t agree on the value of time <img src="https://latex.codecogs.com/svg.latex?\Large&space;\tau" title="\Large Wristwatch Time" /> between ticks as <img src="https://latex.codecogs.com/svg.latex?\Large&space;\tau^2 = t^2 - s^2" title="\Large The Metric" />
 
 The metric tells us the separation between events in spacetime.
 
