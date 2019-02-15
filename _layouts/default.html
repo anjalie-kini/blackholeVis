@@ -36,7 +36,7 @@
       {% for page in site.pages %}
         {% unless page.exclude %}
           {% if page.title %}
-            <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+            <a class="site-footer-owner" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
           {% endif %}
         {% endunless%}
       {% endfor %}
