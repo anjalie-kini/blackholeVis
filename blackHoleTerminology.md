@@ -2,6 +2,7 @@
 layout: default
 title: Important Terminology
 description: Terms you should know
+order: 20
 ---
 
 ## Some Important Terminology

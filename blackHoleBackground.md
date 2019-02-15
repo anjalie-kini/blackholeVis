@@ -2,7 +2,7 @@
 layout: default
 title: Background Information
 description: Basic introduction to this project
-exclude: true
+order: 10
 ---
 
 # Black Hole Background
