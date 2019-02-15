@@ -2,6 +2,7 @@
 layout: default
 title: Basics of a Black Hole
 description: Some prerequisite knowledge about black holes
+order: 5
 ---
 
 # Black Hole Basics
