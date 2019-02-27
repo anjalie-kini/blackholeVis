@@ -1,3 +1,10 @@
+---
+layout: default
+title: Curving
+description: Introduction to General Relativity
+order: 40
+---
+
 # Curving
 
 ## "Distances" Determine Geometry
