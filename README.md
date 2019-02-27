@@ -1,4 +1,9 @@
-# Black Hole Basics
+---
+layout: default
+title: Basics of a Black Hole
+description: Some prerequisite knowledge about black holes
+---
+# Basics of a Black Hole
 
 ## What is a Black Hole?
 
