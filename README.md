@@ -1,6 +1,19 @@
-# blackholeVis
-Recent developments in the field of astrophysics regarding gravitational wave detection of coalescing black holes has made it clear that black holes are not just theoretical objects of interest, but can in fact exist in the universe. Therefore, it is important to study how black holes operate and influence the astronomical bodies around them so that we can understand the consequences of such impacts.
+# Black Hole Basics
 
-In flat space time (assuming there are no non-gravitational forces in play) particles will travel in a straight line, but when space time is curved (as it is near a black hole, or any massive object), the paths become curved and particles lose energy to the gravitational field, which is called the gravitational redshift. The magnitude of this redshift is dependent on the mass, spin, and charge of the black hole. The motion and rotation of the blackhole can cause the light waves to be pushed closer together which makes the light bluer, which is known as a Doppler shift. The gravity near a black hole can completely change the direction of light, whose path can be completely warped. Using models to approximate light paths around a black hole is the only feasible method of study as observation with a telescope would be nearly impossible.
+## What is a Black Hole?
 
-The objective of this project will be to use MATLAB to solve for light paths around non-rotating (Schwarzschild) and rotating (Kerr) blackholes (i.e. see photon paths for different black hole parameters and map the event horizon of the black hole). There are essentially two parts to this project – coding a working model using parameters and equations found in a couple of Special and General Relativity books I’ve found and using that model to create a visualization of the light paths. This will be done for two types of black holes. These models will need to be sensitive to parameters such as angular momentum, initial radius, mass, charge, spin, time, and view. Once this is accomplished there is additional testing to be done looking at changes in the light path as one of these parameters is changed.
+"A black hole is a place in space where gravity pulls so much that even light can not get out. The gravity is so strong because matter has been squeezed into a tiny space. This can happen when a star is dying." -- [NASA](https://www.nasa.gov/audience/forstudents/k-4/stories/nasa-knows/what-is-a-black-hole-k4.html)
+
+## How Big is a Black Hole?
+
+Black holes can come in varying sizes. It is believed that black holes can be as small as an atom, but with huge masses. There are also "stellar" blackholes which have masses up to about 20 times that of the sun. It is believed that there may be many stellar black holes in the Milky Way Galaxy. The largest black holes are "supermassive" black holes which have masses over 1 million times that of the sun. Scientists have proven that there is a supermassive black hole at the center of every large galaxy. At the center of the Milky Way Galaxy is the supermassive black hole Sagittarius A.
+
+## How Are Black Holes Formed?
+
+It is believed that the smallest black holes were formed at the beginning of the universe. Stellar black holes are formed when the center of a massive star collapses inward causing a super nova (an exploding stars). It is believed that supermassive black holes were made at the same time as their galaxy.
+
+## How Do We Know There Are Black Holes If We Can't See Them?
+
+Black holes are invisible to the naked eye -- light cannot escape because it is pulled into the middle of the black hole so humans cannot see black holes. However, we can use telescopes to find black holes by observing the behavior of stars and gas around a black hole. By imaging stars, scientists can determine if the stars' paths have been affected by the gravity of the black hole.
+
+"When a black hole and a star are close together, high-energy light is made. This kind of light can not be seen with human eyes. Scientists use satellites and telescopes in space to see the high-energy light." -- [NASA](https://www.nasa.gov/audience/forstudents/k-4/stories/nasa-knows/what-is-a-black-hole-k4.html)s
