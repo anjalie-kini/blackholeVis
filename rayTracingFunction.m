@@ -61,10 +61,8 @@ stepsize = 0.07; % stepsize for Runge Kutta 4 ODE method
 % (tradeoff here - smaller is faster but less accurate)
 % (based on experimentation, ideal zone is anywhere from .05 to .105)
 
+% calculate the ray path for each initial condition
 for j = 1: num_ray_cols
-    % continually updates progress bar
-    %loadingBar.iterate(1); 
-    % calculate the ray path for each initial condition
     for i = 1: num_ray_rows
         % (evenly space rays)
         pos_height = window_height/2 - (i - 1) * window_height/(num_ray_rows - 1); 
@@ -81,8 +79,7 @@ for j = 1: num_ray_cols
             /(sqrt(distance_from_window^2 + pos_height^2 + pos_width^2) * (spin^2 + 2 * r^2 + spin^2 * cos(2*theta)) * delta(r)); 
         p_theta = 2 * sigma(r,theta) * (-pos_height * r * sin(theta) + sqrt( spin^2 + r^2 ) * cos(theta) * distance_from_window)...
             /(sqrt(distance_from_window^2 + pos_height^2 + pos_width^2 ) * ( spin^2 + 2 * r^2 + spin^2 * cos(2*theta)));
-    
-        %Conserved quantities
+        % conserved quantities
         e = (1 - radiusBH/r) * theta_dot + (radiusBH * spin * phi_dot)/r;
         l = -(radiusBH*spin)/r * theta_dot + (r^2 + spin^2 + (radiusBH * spin^2)/r) * phi_dot;
 
@@ -105,8 +102,7 @@ for j = 1: num_ray_cols
                                 *(x(5)^2 + l^2 * csc(x(2))^2 + x(4)^2 * delta(x(1)))) * sigma_deriv_theta(x(2)))];
         
         % (to be inputted into Range Kutta method)
-        rk_input_BC_init = [r ; theta ; phi ; p_r ; p_theta];
-        rk_input_BC = rk_input_BC_init'; %tranpose x_0 to column matrix
+        rk_input_BC = [r ; theta ; phi ; p_r ; p_theta]';
         
         k=1;
         % Limit curves to celestial sphere
@@ -135,7 +131,7 @@ for j = 1: num_ray_cols
             sqrt(r.^2 + A.^2).*sin(theta).*sin(phi),r.*cos(theta )];
         cartesianCoords = CoordConversion(rk_input_BC(:,1),rk_input_BC(:,2),rk_input_BC(:,3));
         plot3(cartesianCoords(:,1),cartesianCoords(:,2),cartesianCoords(:,3)); 
-        pause(0.001);
+        pause(0.001); %to redraw live on animation
     end
 end
 
@@ -143,5 +139,5 @@ hold off
    
 %Final computations time
 endTime = toc(startTime);
-fprintf('%d minutes and %f seconds\n',floor(endTime/60),rem(endTime,60));
+fprintf('%d mins and %f secs\n',floor(endTime/60),rem(endTime,60));
 end
