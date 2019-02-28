@@ -55,7 +55,7 @@ Let the total wristwatch time from flash 1 to flash 3 be <img src="https://latex
 
 When will the stone emit #2? By the Principle of Extremal Aging: time <img src="https://latex.codecogs.com/svg.latex?\Large&space;t" title="time" /> will be such that the aging is an extremum so we set the derivative of <img src="https://latex.codecogs.com/svg.latex?\Large&space;\tau" title="Wristwatch Time between flash 1 and 3" /> with respect to <img src="https://latex.codecogs.com/svg.latex?\Large&space;t" title="time" /> equal to 0.
 
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;\frac{d\tau}{dt} = \frac{d\tau_A}{dt} + \frac{d\tau_B}{dt} = \frac{t}{\tau_A} - \frac{T-t}{\tau_B} = 0}" title="Finding extremum" />
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;\frac{d\tau}{dt} = \frac{d\tau_A}{dt} + \frac{d\tau_B}{dt} = \frac{t}{\tau_A} - \frac{T-t}{\tau_B} = 0" title="Finding extremum" />
 
 We can rewrite the equation as follows:
 
@@ -67,7 +67,7 @@ But locations A and B were chosen arbitrarily so it holds for all pairs of adjac
 
 <img src="https://latex.codecogs.com/svg.latex?\Large&space;\frac{t}{T} =" /> a constant of motion
 
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;\frac{t}{\tau} = \frac{t}{[t^2 - s^2]^{\frac{1}{2}}} = \frac{t}{t[1 - (\frac{s}{t})^2]^{\frac{1}{2}} = \frac{1}{(1-v^2)^{\frac{1}{2}}} = \frac{E}{m}" /> where m is the mass of the particle.
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;\frac{t}{\tau} = \frac{t}{[t^2 - s^2]^{\frac{1}{2}}} = \frac{t}{t[1 - (\frac{s}{t})^2]^{\frac{1}{2}}} = \frac{1}{(1-v^2)^{\frac{1}{2}}} = \frac{E}{m}" /> where m is the mass of the particle.
 
 <img src="https://latex.codecogs.com/svg.latex?\Large&space;\frac{E}{m} = \frac{dt}{d\tau}" />
 

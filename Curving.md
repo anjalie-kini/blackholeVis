@@ -74,7 +74,7 @@ Events and intervals form a universal language that connect flat spacetime geome
 <img src="https://latex.codecogs.com/svg.latex?\Large&space;(spatial\ separation)^2 = (dr)^2 + (r \cdot d\phi)^2" />
 
 ## The Schwarzschild Metric for Curved spacetime
-The emtric for the proper time between two timelike events in a plane on flat spacetime is given by
+The metric for the proper time between two timelike events in a plane on flat spacetime is given by
 
 <img src="https://latex.codecogs.com/svg.latex?\Large&space;{d\tau}^2 = dt^2 - dr^2 -r^2{d\phi}^2" />
 
@@ -95,9 +95,9 @@ Reasons it makes sense:
 4. Confirms dr is less than the directly measured distance between shells
 5. Confirms gravitational redshifted
 
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;d\rho = dr_{shell} = \frac{dr}{1-(\frac{2M}{r})^{\frac{1}{2}}" /> [radial rod at rest on shell]
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;d\rho = dr_{shell} = \frac{dr}{1-(\frac{2M}{r})^{\frac{1}{2}}}" /> [radial rod at rest on shell]
 
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;d\tau = dt_{shell} =1-(\frac{2M}{r})^{\frac{1}{2} dt" /> [clock at rest on shell]
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;d\tau = dt_{shell} =1-(\frac{2M}{r})^{\frac{1}{2}} dt" /> [clock at rest on shell]
 
 The Schwarzschild metric applied only outside the surface of an object but a test particle can explore all of spacetime around a blackhole without bumping into the surface since there is no surface at all.
 

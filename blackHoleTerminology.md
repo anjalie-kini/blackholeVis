@@ -26,11 +26,3 @@ order: 20
 **Ergosphere:** area of distorted space around the event horizon caused by the spin of a black hole
 
 **Static Limit:** boundary between normal space and the ergosphere
-
-**Attempt 1**
-
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" />
-
-**Attempt 2**
-
-![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?x%3D%5Cfrac%7B-b%5Cpm%5Csqrt%7Bb%5E2-4ac%7D%7D%7B2a%7D)
