@@ -70,6 +70,8 @@ for j = 1: num_ray_cols
         pos_width = -window_width/2 + (j-1) * window_width/(num_ray_cols - 1);
         
         % Initialize radius and angles
+        % Forumulas from McGill University paper as cited in Research
+        % Bibliography
         r = 70;
         theta = pi/2 - pi/46;
         phi = 0;
@@ -85,8 +87,10 @@ for j = 1: num_ray_cols
         l = -(radiusBH*spin)/r * theta_dot + (r^2 + spin^2 + (radiusBH * spin^2)/r) * phi_dot;
 
         %Geodesic equations
-        % input : x = [r; theta; phi; p_r; p_theta]
-        % ouput: dx = [d_r; d_theta; d_phi; d_pr; d_ptheta] 
+        % input : [r; theta; phi; p_r; p_theta]
+        % ouput: [d_r; d_theta; d_phi; d_pr; d_ptheta] 
+        % Forumulas below from McGill University paper as cited in Research
+        % Bibliography
         f = @(lambda, x) [( x(4) * delta(x(1)) ) / sigma(x(1),x(2)) ;
                         x(5) / sigma(x(1), x(2));
                         (spin*(-spin * l + x(1) * radiusBH * e ) + l * csc(x(2))^2 * delta(x(1)) )/( delta(x(1)) * sigma(x(1),x(2)));
@@ -125,6 +129,8 @@ for j = 1: num_ray_cols
 
         % Transform to from Boyer-Lindquist coords to Cartesian coords
         % (Boyer-Lindquist is standardized metric for Kerr spacetime)
+        % Forumulas from McGill University paper as cited in Research
+        % Bibliography
         [n,~] = size(rk_input_BC);
         A = spin*ones(n,1);
         CoordConversion = @(r,theta ,phi) [sqrt(r.^2 + A.^2).*sin(theta).*cos(phi),...
