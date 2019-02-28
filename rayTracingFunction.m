@@ -4,6 +4,7 @@ function rayTracingFunction(g,m,s)
 
 % Ray Tracing (generating light paths using geodesic equations) around a 
 % Kerr (rotating) black hole
+% Forumulas below from McGill University paper as cited in Research Bibliography
 
 % Set the number of rows and columns of rays (there are num_ray_rows *
 % num_ray_cols total rays)
@@ -70,8 +71,7 @@ for j = 1: num_ray_cols
         pos_width = -window_width/2 + (j-1) * window_width/(num_ray_cols - 1);
         
         % Initialize radius and angles
-        % Forumulas from McGill University paper as cited in Research
-        % Bibliography
+        % Forumulas from McGill University paper
         r = 70;
         theta = pi/2 - pi/46;
         phi = 0;
@@ -89,8 +89,7 @@ for j = 1: num_ray_cols
         %Geodesic equations
         % input : [r; theta; phi; p_r; p_theta]
         % ouput: [d_r; d_theta; d_phi; d_pr; d_ptheta] 
-        % Forumulas below from McGill University paper as cited in Research
-        % Bibliography
+        % Forumulas below from McGill University paper
         f = @(lambda, x) [( x(4) * delta(x(1)) ) / sigma(x(1),x(2)) ;
                         x(5) / sigma(x(1), x(2));
                         (spin*(-spin * l + x(1) * radiusBH * e ) + l * csc(x(2))^2 * delta(x(1)) )/( delta(x(1)) * sigma(x(1),x(2)));
@@ -129,8 +128,7 @@ for j = 1: num_ray_cols
 
         % Transform to from Boyer-Lindquist coords to Cartesian coords
         % (Boyer-Lindquist is standardized metric for Kerr spacetime)
-        % Forumulas from McGill University paper as cited in Research
-        % Bibliography
+        % Forumulas from McGill University paper
         [n,~] = size(rk_input_BC);
         A = spin*ones(n,1);
         CoordConversion = @(r,theta ,phi) [sqrt(r.^2 + A.^2).*sin(theta).*cos(phi),...
